@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    padding-top: 100px;
+    background: linear-gradient( to down #ebfff2 to white) ;
+    font-family: "DM sans", sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+header{
+    display: flex;
+    align-items:center;
+    padding: 0.0005px;
+    background-color: white;
+    border-bottom: 2px double #3f8159;
+    position: fixed;
+    top:0;
+    width:100%;
+
+}
+nav{
+    position: sticky;
+    align-items: center;
+    display: flex;
+    padding: 14px 28px;
+    background: rgba(255,255,255,0.9);
+}
+.navbar a{
+    font-family:"DM Sans", sans-serif;
+    text-decoration:none;
+    color:#3d5c47;
+    font-size:14px;
+    font-weight:600;
+    border-radius: 10px;
+    padding:8px 12px;
+    transition: 0.2s;
+}
+a{
+    display:flex;
+    gap:8px;
+}
+.navbar a:hover{
+    background-color:#f0faf2;
+    color: #3d8c58;
+    height:10px;
+    border-radius:800px;
+}
+h1{
+    font-family: "Fraunces",serif;
+    text-align: center;
+    font-size:30px;
+}
+.quote{
+    max-width: 620px;
+    margin:0 auto 18px;
+    padding:26px;
+    background: linear-gradient(135deg,#e6f5ea, rgb(255, 248, 216));
+    border-radius: 18px;
+    font-style: italic;
+    line-height: 1.9;
+    color:black;
+    box-shadow: 0 8px 24px rgba (0,0,0,0.04);
+    font-family: Roboto sans-serif;
+    font-size: 20px;
+}
+.card{
+    text-align: left;
+    max-width: 620px;
+    margin:auto;
+    padding:24px;
+    background: #f7fff9;
+    border-radius: 18px;
+    border: 1px solid #dceee2;
+    font-size:17px;
+    line-height: 1.9;
+    color:#2b3f31;
+    box-shadow: 0 8px 24px rgba (0,0,0,0.04);
+}
+footer{
+    background-color: forestgreen;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.container{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.idea{
+    margin:0;
+    background-color: #c9993a;
+    border-radius:15px ;
+    width: 120px;
+    padding: 18px 14px;
+}
+.build{
+    margin:0;
+    padding: 18px 14px;
+    background-color: #d4937e;
+    color: #ffffff;
+    border-radius:15px ;
+    width: 120px;
+}
