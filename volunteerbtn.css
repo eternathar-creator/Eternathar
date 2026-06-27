@@ -42,3 +42,15 @@ footer{
     padding: 20px;
     margin-top: 20px;
 }
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;    
+        justify-content: center;
+        gap: 8px;           
+    }
+    .navbar a {
+        font-size: 14px;    
+        padding: 6px 10px;  
+    }
+}
