@@ -209,3 +209,61 @@ mark{
         padding: 6px 10px;  
     }
 }
+.carousel-wrap {
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 15px 5px;
+  scrollbar-width: none;
+}
+
+.carousel-track::-webkit-scrollbar {
+  display: none;
+}
+.acard {
+  background: white; 
+  border-radius: 18px;
+  border: 1.5px solid #dceee2;
+  padding: 24px 22px;
+  box-shadow: 0 4px 18px rgba(0,0,0,.05);
+  text-align: left;
+  flex: 0 0 310px; 
+  scroll-snap-align: start; 
+  box-sizing: border-box;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px; 
+}
+
+.nav-btn {
+  background-color: #ffffff;
+  color: #3d8c58;
+  border: 2px solid #dceee2;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.nav-btn:hover {
+  background-color: #3d8c58;
+  color: white;
+  border-color: #3d8c58;
+}
