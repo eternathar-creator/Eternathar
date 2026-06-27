@@ -250,3 +250,15 @@ mark{
     border-radius: 100px;
     background-color: rgb(212, 170, 62);
 }
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;    
+        justify-content: center;
+        gap: 8px;           
+    }
+    .navbar a {
+        font-size: 14px;    
+        padding: 6px 10px;  
+    }
+}
